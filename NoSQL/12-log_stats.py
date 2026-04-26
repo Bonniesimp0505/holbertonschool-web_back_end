@@ -9,9 +9,6 @@ from typing import List, Dict
 def count(collection, options: Dict[str, str] = {}) -> int:
     """
     Take a mongoDB collection, filter data and count it
-    Args:
-        collection: MongoDB collection
-        options (Dict[str, str]): options to filter
     """
     return collection.count_documents(options)
 
