@@ -1,1 +1,0 @@
-db.school.find({ name: /^Holberton/i })
